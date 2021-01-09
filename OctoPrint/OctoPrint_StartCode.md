@@ -1,4 +1,4 @@
-; This is code to run before sliced files on pint initiation.
+; This is code to run before sliced files on print initiation.
 M140 S50 ; Set Bed temp to 50c
 M190 S50 ; Wait for bed to hit 50c to level
 G91 ; Set relative
@@ -21,6 +21,4 @@ G4 S4 ; Wait 4 Seconds
 M190 S50 ; Wait for Bed to hit 50c
 G0 Z20 ; Lift Nozzle before move
 G0 X20 Y20 ; Move to start area for Nozzle purge to avoide dingleberrys in print area
-; M104 S160 ; Preheat Nozzle to 180c - Not used for now
-; M109 S160 ; Wait Until Nozzle is 180c - not used for now
-; G0 Z0 ; - not used for now
+
