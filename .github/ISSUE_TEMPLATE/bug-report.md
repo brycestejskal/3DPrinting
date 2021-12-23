@@ -1,8 +1,8 @@
 ---
-name: 'Issue:'
+name: Bug Report
 about: Report an issue to be investigated
 title: ''
-labels: ''
+labels: bug
 assignees: brycestejskal
 
 ---
