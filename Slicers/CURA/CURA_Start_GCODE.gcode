@@ -1,0 +1,1 @@
+PRINT_START BED_TEMP={material_bed_temperature} EXTRUDER_TEMP={material_print_temperature} MATERIAL_TYPE={material_type} RETRACTION_ENABLE={retraction_enable} RETRACTION_LENGTH={retraction_amount} RETRACTION_SPEED={retraction_speed} UNRETRACT_EXTRA_LENGTH={retraction__extra_prime_amount} UNRETRACT_SPEED={retraction_prime_speed}
